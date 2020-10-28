@@ -7,13 +7,13 @@
 // console.log('Your new phrase: ' , newPhrase)
 
 
-// function symChanging(sym, newSym, str) {
-//     while( str.indexOf(sym) > -1) {
-//       str = str.replace(sym, newSym);
-//     }
-//     return str;
-// }
+function symChanging(sym, newSym, str) {
+    while( str.indexOf(sym) > -1) {
+      str = str.replace(sym, newSym);
+    }
+    return str;
+}
 
 
 
-// console.log('Your updated text:',symChanging(phrase, newPhrase, text));
+console.log('Your updated text:',symChanging(phrase, newPhrase, text));
